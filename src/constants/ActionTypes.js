@@ -1,0 +1,6 @@
+export const GET_USER = "GET_USER"
+export const SET_USER = "SET_USER"
+
+export const GET_USERS_REQUESTED = "GET_USERS_REQUESTED"
+export const GET_USERS_SUCCEEDED = "GET_USERS_SUCCESS"
+export const GET_USERS_FAILED = "GET_USERS_FAILED"

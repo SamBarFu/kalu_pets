@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "sambarfu",
+    "email": "sambarberena@gmail.com",
+    "city": "Managua"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "sambarfu",
+      "email": "sambarberena@gmail.com",
+      "password": "samuel123",
+      "city": "Managua",
+      "age": 23
+    },
+    {
+      "name": "samuel",
+      "city": "Managua",
+      "email": "sambarsadberena@gmail.com",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "id": 2
+    }
+  ]
+}

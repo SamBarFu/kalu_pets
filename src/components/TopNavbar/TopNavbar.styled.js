@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components"
 
 export const StyledTopNavbar = styled.header`
   display: flex;
@@ -35,11 +35,11 @@ export const StyledTopNavbar = styled.header`
       z-index: 99999;
     }
   }
-`;
+`
 
 export const WrapperLogo = styled.div`
   img {
-    width: 150px;
+    width: 80px;
     height: auto;
     object-fit: contain;
   }
@@ -49,7 +49,7 @@ export const WrapperLogo = styled.div`
       width: 100px;
     }
   }
-`;
+`
 
 export const WrapperNav = styled.div`
   > ul {
@@ -67,7 +67,7 @@ export const WrapperNav = styled.div`
   }
 
   @media ${({ theme }) => theme.media.mobile} {
-    display: ${(props) => (props.active ? 'block' : 'none')};
+    display: ${(props) => (props.active ? "block" : "none")};
     position: fixed;
     inset: 0;
     z-index: 99999;
@@ -116,4 +116,4 @@ export const WrapperNav = styled.div`
       opacity: 0;
     }
   }
-`;
+`
